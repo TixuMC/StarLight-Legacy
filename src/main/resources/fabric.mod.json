@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "starlightlegacy",
+  "version": "${version}",
+  "name": "StarLight Legacy",
+  "description": "Small Legacy Fabric 1.12.2 client-side FPS tuning mod.",
+  "authors": [
+    "StarLight Legacy"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.starlightlegacy.StarlightLegacyClient"
+    ]
+  },
+  "depends": {
+    "legacy-fabricloader": ">=1.9.4",
+    "minecraft": "1.12.2"
+  }
+}
