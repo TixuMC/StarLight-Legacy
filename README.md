@@ -22,6 +22,9 @@ A config file is created at `config/starlightlegacy.properties` with:
 - `max_fps=120` (clamped to 30..260)
 - `view_distance=8` (clamped to 2..16)
 
+## Release file
+Versioned release notes for the current Legacy Fabric 1.12.2 build are kept in `releases/0.1.0.md`.
+
 ## Build
 ```bash
 ./gradlew build
